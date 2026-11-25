@@ -1,0 +1,21 @@
+{
+  "platform": "wechatgame",
+  "appid": "YOUR_WECHAT_APP_ID",
+  "deviceOrientation": "portrait",
+  "debug": false,
+  "packages": {
+    "wechatgame": {
+      "orientation": "portrait",
+      "appid": "YOUR_WECHAT_APP_ID"
+    }
+  },
+  "scenes": [
+    {
+      "url": "db://assets/scenes/game.scene",
+      "uuid": "10b3d0f9-5b30-4806-a004-f96abc1eeee2"
+    }
+  ],
+  "outputName": "wechatgame-release",
+  "mainBundleCompressionType": "subpackage",
+  "mainBundleIsRemote": false
+}

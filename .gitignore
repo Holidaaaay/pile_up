@@ -22,3 +22,29 @@ node_modules/
 # WebStorm
 #//////////////////////////
 .idea/
+
+# Local editor sessions and machine-specific WeChat settings
+/.claude/
+/.creator/asset-template/
+/.mcp_call.js
+/.mcp_session
+/funplay-cocos-mcp.config.json
+/project.config.json
+/project.private.config.json
+/build-config-wechat*.json
+!/build-config-wechat.example.json
+/build-wechat-log.txt
+
+# Local working material. Runtime resources live in assets/.
+/art_concept/*
+!/art_concept/generate_kitchen_sfx.py
+/new_art_assets/
+/备案截图/
+/*.png
+/工作记录与规划.md
+/版本更新说明.md
+/指示02.md
+/项目总结.md
+/食材刷新机制调研报告.md
+/问题.txt
+/新建 文本文档.txt
